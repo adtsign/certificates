@@ -21,9 +21,9 @@ import (
 	"go.step.sm/crypto/randutil"
 	"go.step.sm/linkedca"
 
-	adminAPI "github.com/smallstep/certificates/authority/admin/api"
-	"github.com/smallstep/certificates/authority/provisioner"
-	"github.com/smallstep/certificates/errs"
+	adminAPI "github.com/adtsign/certificates/authority/admin/api"
+	"github.com/adtsign/certificates/authority/provisioner"
+	"github.com/adtsign/certificates/errs"
 )
 
 const (

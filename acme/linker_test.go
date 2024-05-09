@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/adtsign/certificates/authority/provisioner"
 	"github.com/smallstep/assert"
-	"github.com/smallstep/certificates/authority/provisioner"
 )
 
 func mockProvisioner(t *testing.T) Provisioner {

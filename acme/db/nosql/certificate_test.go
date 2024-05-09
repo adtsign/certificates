@@ -10,10 +10,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/adtsign/certificates/acme"
+	"github.com/adtsign/certificates/db"
 	"github.com/pkg/errors"
 	"github.com/smallstep/assert"
-	"github.com/smallstep/certificates/acme"
-	"github.com/smallstep/certificates/db"
 	"github.com/smallstep/nosql"
 	nosqldb "github.com/smallstep/nosql/database"
 	"go.step.sm/crypto/pemutil"

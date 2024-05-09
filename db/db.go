@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/adtsign/certificates/authority/provisioner"
 	"github.com/pkg/errors"
-	"github.com/smallstep/certificates/authority/provisioner"
 	"github.com/smallstep/nosql"
 	"github.com/smallstep/nosql/database"
 	"golang.org/x/crypto/ssh"

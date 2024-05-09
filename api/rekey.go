@@ -3,9 +3,9 @@ package api
 import (
 	"net/http"
 
-	"github.com/smallstep/certificates/api/read"
-	"github.com/smallstep/certificates/api/render"
-	"github.com/smallstep/certificates/errs"
+	"github.com/adtsign/certificates/api/read"
+	"github.com/adtsign/certificates/api/render"
+	"github.com/adtsign/certificates/errs"
 )
 
 // RekeyRequest is the request body for a certificate rekey request.

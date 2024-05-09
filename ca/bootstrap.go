@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"strings"
 
+	"github.com/adtsign/certificates/api"
 	"github.com/pkg/errors"
-	"github.com/smallstep/certificates/api"
 	"go.step.sm/crypto/jose"
 )
 

@@ -7,7 +7,7 @@ import (
 	"go.step.sm/crypto/kms"
 	kmsapi "go.step.sm/crypto/kms/apiv1"
 
-	"github.com/smallstep/certificates/authority/provisioner"
+	"github.com/adtsign/certificates/authority/provisioner"
 )
 
 // Meter wraps the set of defined callbacks for metrics gatherers.

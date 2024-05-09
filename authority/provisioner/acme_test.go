@@ -14,8 +14,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/adtsign/certificates/api/render"
 	"github.com/smallstep/assert"
-	"github.com/smallstep/certificates/api/render"
 )
 
 func TestACMEChallenge_Validate(t *testing.T) {

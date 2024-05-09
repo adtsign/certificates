@@ -11,12 +11,12 @@ import (
 
 	"go.step.sm/linkedca"
 
-	"github.com/smallstep/certificates/authority/admin"
-	"github.com/smallstep/certificates/authority/administrator"
-	"github.com/smallstep/certificates/authority/config"
-	"github.com/smallstep/certificates/authority/policy"
-	"github.com/smallstep/certificates/authority/provisioner"
-	"github.com/smallstep/certificates/db"
+	"github.com/adtsign/certificates/authority/admin"
+	"github.com/adtsign/certificates/authority/administrator"
+	"github.com/adtsign/certificates/authority/config"
+	"github.com/adtsign/certificates/authority/policy"
+	"github.com/adtsign/certificates/authority/provisioner"
+	"github.com/adtsign/certificates/db"
 )
 
 func TestAuthority_checkPolicy(t *testing.T) {

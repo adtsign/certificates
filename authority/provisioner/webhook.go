@@ -14,10 +14,10 @@ import (
 	"text/template"
 	"time"
 
+	"github.com/adtsign/certificates/middleware/requestid"
+	"github.com/adtsign/certificates/templates"
+	"github.com/adtsign/certificates/webhook"
 	"github.com/pkg/errors"
-	"github.com/smallstep/certificates/middleware/requestid"
-	"github.com/smallstep/certificates/templates"
-	"github.com/smallstep/certificates/webhook"
 	"go.step.sm/linkedca"
 )
 

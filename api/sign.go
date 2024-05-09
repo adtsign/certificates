@@ -5,11 +5,11 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/smallstep/certificates/api/read"
-	"github.com/smallstep/certificates/api/render"
-	"github.com/smallstep/certificates/authority/config"
-	"github.com/smallstep/certificates/authority/provisioner"
-	"github.com/smallstep/certificates/errs"
+	"github.com/adtsign/certificates/api/read"
+	"github.com/adtsign/certificates/api/render"
+	"github.com/adtsign/certificates/authority/config"
+	"github.com/adtsign/certificates/authority/provisioner"
+	"github.com/adtsign/certificates/errs"
 )
 
 // SignRequest is the request body for a certificate signature request.

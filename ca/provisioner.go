@@ -5,8 +5,8 @@ import (
 	"net/url"
 	"time"
 
+	"github.com/adtsign/certificates/authority/provisioner"
 	"github.com/pkg/errors"
-	"github.com/smallstep/certificates/authority/provisioner"
 	"go.step.sm/cli-utils/token"
 	"go.step.sm/cli-utils/token/provision"
 	"go.step.sm/crypto/jose"

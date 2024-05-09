@@ -15,8 +15,8 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/adtsign/certificates/acme"
 	"github.com/smallstep/assert"
-	"github.com/smallstep/certificates/acme"
 	tassert "github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"go.step.sm/crypto/jose"

@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/smallstep/certificates/errs"
+	"github.com/adtsign/certificates/errs"
 	"go.step.sm/crypto/sshutil"
 	"golang.org/x/crypto/ssh"
 )

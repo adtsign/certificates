@@ -3,7 +3,7 @@ package authority
 import (
 	"crypto/x509"
 
-	"github.com/smallstep/certificates/errs"
+	"github.com/adtsign/certificates/errs"
 )
 
 // Root returns the certificate corresponding to the given SHA sum argument.

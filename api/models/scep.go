@@ -5,7 +5,7 @@ import (
 	"crypto/x509"
 	"errors"
 
-	"github.com/smallstep/certificates/authority/provisioner"
+	"github.com/adtsign/certificates/authority/provisioner"
 	"golang.org/x/crypto/ssh"
 )
 

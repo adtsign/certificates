@@ -6,10 +6,10 @@ import (
 	"net/url"
 	"time"
 
+	"github.com/adtsign/certificates/api"
+	"github.com/adtsign/certificates/ca"
+	"github.com/adtsign/certificates/cas/apiv1"
 	"github.com/pkg/errors"
-	"github.com/smallstep/certificates/api"
-	"github.com/smallstep/certificates/ca"
-	"github.com/smallstep/certificates/cas/apiv1"
 )
 
 func init() {

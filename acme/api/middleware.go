@@ -13,10 +13,10 @@ import (
 	"go.step.sm/crypto/jose"
 	"go.step.sm/crypto/keyutil"
 
-	"github.com/smallstep/certificates/acme"
-	"github.com/smallstep/certificates/api/render"
-	"github.com/smallstep/certificates/authority/provisioner"
-	"github.com/smallstep/certificates/logging"
+	"github.com/adtsign/certificates/acme"
+	"github.com/adtsign/certificates/api/render"
+	"github.com/adtsign/certificates/authority/provisioner"
+	"github.com/adtsign/certificates/logging"
 )
 
 type nextHTTP = func(http.ResponseWriter, *http.Request)

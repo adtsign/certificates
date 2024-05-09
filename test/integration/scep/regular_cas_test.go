@@ -18,10 +18,10 @@ import (
 	"go.step.sm/crypto/minica"
 	"go.step.sm/crypto/pemutil"
 
-	"github.com/smallstep/certificates/authority/config"
-	"github.com/smallstep/certificates/authority/provisioner"
-	"github.com/smallstep/certificates/ca"
-	"github.com/smallstep/certificates/cas/apiv1"
+	"github.com/adtsign/certificates/authority/config"
+	"github.com/adtsign/certificates/authority/provisioner"
+	"github.com/adtsign/certificates/ca"
+	"github.com/adtsign/certificates/cas/apiv1"
 )
 
 func TestFailsIssuingCertificateUsingRegularSCEPWithUpstreamCAS(t *testing.T) {

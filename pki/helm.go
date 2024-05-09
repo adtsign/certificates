@@ -5,11 +5,11 @@ import (
 	"io"
 	"text/template"
 
+	"github.com/adtsign/certificates/authority"
+	authconfig "github.com/adtsign/certificates/authority/config"
+	"github.com/adtsign/certificates/authority/provisioner"
+	"github.com/adtsign/certificates/templates"
 	"github.com/pkg/errors"
-	"github.com/smallstep/certificates/authority"
-	authconfig "github.com/smallstep/certificates/authority/config"
-	"github.com/smallstep/certificates/authority/provisioner"
-	"github.com/smallstep/certificates/templates"
 	"go.step.sm/linkedca"
 )
 

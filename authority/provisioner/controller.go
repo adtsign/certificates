@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/adtsign/certificates/errs"
+	"github.com/adtsign/certificates/webhook"
 	"github.com/pkg/errors"
-	"github.com/smallstep/certificates/errs"
-	"github.com/smallstep/certificates/webhook"
 	"go.step.sm/linkedca"
 	"golang.org/x/crypto/ssh"
 )

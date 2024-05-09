@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/smallstep/certificates/errs"
+	"github.com/adtsign/certificates/errs"
 )
 
 // ConstraintError is the typed error that will be returned if a constraint

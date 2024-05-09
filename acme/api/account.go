@@ -8,9 +8,9 @@ import (
 
 	"github.com/go-chi/chi/v5"
 
-	"github.com/smallstep/certificates/acme"
-	"github.com/smallstep/certificates/api/render"
-	"github.com/smallstep/certificates/logging"
+	"github.com/adtsign/certificates/acme"
+	"github.com/adtsign/certificates/api/render"
+	"github.com/adtsign/certificates/logging"
 )
 
 // NewAccountRequest represents the payload for a new account request.

@@ -8,8 +8,8 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/adtsign/certificates/authority/provisioner"
 	"github.com/smallstep/assert"
-	"github.com/smallstep/certificates/authority/provisioner"
 	"github.com/smallstep/nosql"
 	"github.com/smallstep/nosql/database"
 )

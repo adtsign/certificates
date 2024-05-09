@@ -4,8 +4,8 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/smallstep/certificates/api"
-	"github.com/smallstep/certificates/authority"
+	"github.com/adtsign/certificates/api"
+	"github.com/adtsign/certificates/authority"
 )
 
 var mustAuthority = func(ctx context.Context) adminAuthority {

@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/adtsign/certificates/ca"
+	"github.com/adtsign/certificates/cas/apiv1"
 	"github.com/google/uuid"
-	"github.com/smallstep/certificates/ca"
-	"github.com/smallstep/certificates/cas/apiv1"
 	"go.step.sm/crypto/jose"
 )
 

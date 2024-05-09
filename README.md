@@ -1,8 +1,8 @@
 # step-ca
 
-[![GitHub release](https://img.shields.io/github/release/smallstep/certificates.svg)](https://github.com/smallstep/certificates/releases/latest)
-[![Go Report Card](https://goreportcard.com/badge/github.com/smallstep/certificates)](https://goreportcard.com/report/github.com/smallstep/certificates)
-[![Build Status](https://github.com/smallstep/certificates/actions/workflows/test.yml/badge.svg)](https://github.com/smallstep/certificates)
+[![GitHub release](https://img.shields.io/github/release/smallstep/certificates.svg)](https://github.com/adtsign/certificates/releases/latest)
+[![Go Report Card](https://goreportcard.com/badge/github.com/adtsign/certificates)](https://goreportcard.com/report/github.com/adtsign/certificates)
+[![Build Status](https://github.com/adtsign/certificates/actions/workflows/test.yml/badge.svg)](https://github.com/adtsign/certificates)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![CLA assistant](https://cla-assistant.io/readme/badge/smallstep/certificates)](https://cla-assistant.io/smallstep/certificates)
 
@@ -50,7 +50,7 @@ You can [start a free trial](https://smallstep.com/signup) or [set up a call wit
 
 ---
 
-**Questions? Find us in [Discussions](https://github.com/smallstep/certificates/discussions) or [Join our Discord](https://u.step.sm/discord).**
+**Questions? Find us in [Discussions](https://github.com/adtsign/certificates/discussions) or [Join our Discord](https://u.step.sm/discord).**
 
 [Website](https://smallstep.com/certificates) |
 [Documentation](https://smallstep.com/docs/step-ca) |
@@ -139,5 +139,5 @@ and visiting http://localhost:8080.
 
 ## Feedback?
 
-* Tell us what you like and don't like about managing your PKI - we're eager to help solve problems in this space. [Join our Discord](https://u.step.sm/discord) or [GitHub Discussions](https://github.com/smallstep/certificates/discussions)
-* Tell us about a feature you'd like to see! [Request a Feature](https://github.com/smallstep/certificates/issues/new?assignees=&labels=enhancement%2C+needs+triage&template=enhancement.md&title=)
+* Tell us what you like and don't like about managing your PKI - we're eager to help solve problems in this space. [Join our Discord](https://u.step.sm/discord) or [GitHub Discussions](https://github.com/adtsign/certificates/discussions)
+* Tell us about a feature you'd like to see! [Request a Feature](https://github.com/adtsign/certificates/issues/new?assignees=&labels=enhancement%2C+needs+triage&template=enhancement.md&title=)

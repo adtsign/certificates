@@ -12,10 +12,10 @@ import (
 	"strings"
 	"time"
 
+	"github.com/adtsign/certificates/authority/admin"
+	"github.com/adtsign/certificates/authority/provisioner"
+	"github.com/adtsign/certificates/errs"
 	"github.com/pkg/errors"
-	"github.com/smallstep/certificates/authority/admin"
-	"github.com/smallstep/certificates/authority/provisioner"
-	"github.com/smallstep/certificates/errs"
 	"go.step.sm/crypto/jose"
 	"go.step.sm/linkedca"
 	"golang.org/x/crypto/ssh"

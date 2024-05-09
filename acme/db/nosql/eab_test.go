@@ -9,9 +9,9 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/pkg/errors"
 
+	"github.com/adtsign/certificates/acme"
+	certdb "github.com/adtsign/certificates/db"
 	"github.com/smallstep/assert"
-	"github.com/smallstep/certificates/acme"
-	certdb "github.com/smallstep/certificates/db"
 	"github.com/smallstep/nosql"
 	nosqldb "github.com/smallstep/nosql/database"
 )

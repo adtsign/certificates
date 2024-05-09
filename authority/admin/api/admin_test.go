@@ -18,9 +18,9 @@ import (
 
 	"go.step.sm/linkedca"
 
+	"github.com/adtsign/certificates/authority/admin"
+	"github.com/adtsign/certificates/authority/provisioner"
 	"github.com/smallstep/assert"
-	"github.com/smallstep/certificates/authority/admin"
-	"github.com/smallstep/certificates/authority/provisioner"
 )
 
 type mockAdminAuthority struct {

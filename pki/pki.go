@@ -16,16 +16,16 @@ import (
 	"strings"
 	"time"
 
+	"github.com/adtsign/certificates/authority"
+	"github.com/adtsign/certificates/authority/admin"
+	admindb "github.com/adtsign/certificates/authority/admin/db/nosql"
+	authconfig "github.com/adtsign/certificates/authority/config"
+	"github.com/adtsign/certificates/authority/provisioner"
+	"github.com/adtsign/certificates/ca"
+	"github.com/adtsign/certificates/cas"
+	"github.com/adtsign/certificates/cas/apiv1"
+	"github.com/adtsign/certificates/db"
 	"github.com/pkg/errors"
-	"github.com/smallstep/certificates/authority"
-	"github.com/smallstep/certificates/authority/admin"
-	admindb "github.com/smallstep/certificates/authority/admin/db/nosql"
-	authconfig "github.com/smallstep/certificates/authority/config"
-	"github.com/smallstep/certificates/authority/provisioner"
-	"github.com/smallstep/certificates/ca"
-	"github.com/smallstep/certificates/cas"
-	"github.com/smallstep/certificates/cas/apiv1"
-	"github.com/smallstep/certificates/db"
 	"github.com/smallstep/nosql"
 	"go.step.sm/cli-utils/errs"
 	"go.step.sm/cli-utils/fileutil"
@@ -741,7 +741,7 @@ func (p *PKI) askFeedback() {
 	ui.Println("  home. But your feedback is extremely valuable. Any information you can provide")
 	ui.Println("  regarding how you’re using `step` helps. Please send us a sentence or two,")
 	ui.Println("  good or bad at \033[1mfeedback@smallstep.com\033[0m or join GitHub Discussions")
-	ui.Println("  \033[1mhttps://github.com/smallstep/certificates/discussions\033[0m and our Discord ")
+	ui.Println("  \033[1mhttps://github.com/adtsign/certificates/discussions\033[0m and our Discord ")
 	ui.Println("  \033[1mhttps://u.step.sm/discord\033[0m.")
 
 	if p.options.deploymentType == LinkedDeployment {

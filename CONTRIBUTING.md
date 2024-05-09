@@ -25,7 +25,7 @@ to manage issues, etc.
 ## Building From Source
 
 Clone this repository to get a bleeding-edge build, 
-or download the source archive for [the latest stable release](https://github.com/smallstep/certificates/releases/latest).
+or download the source archive for [the latest stable release](https://github.com/adtsign/certificates/releases/latest).
 
 ### Build a standard `step-ca`
 
@@ -81,13 +81,13 @@ When the build is complete, you will find binaries in `bin/`.
 
 ## Asking Support Questions
 
-Feel free to post a question on our [GitHub Discussions](https://github.com/smallstep/certificates/discussions) page, or find us on [Discord](https://bit.ly/step-discord).
+Feel free to post a question on our [GitHub Discussions](https://github.com/adtsign/certificates/discussions) page, or find us on [Discord](https://bit.ly/step-discord).
 
 ## Reporting Issues
 
 If you believe you have found a defect in `step certificates` or its
 documentation, use the GitHub [issue
-tracker](https://github.com/smallstep/certificates/issues) to report the
+tracker](https://github.com/adtsign/certificates/issues) to report the
 problem. When reporting the issue, please provide the version of `step
 certificates` in use (`step-ca version`) and your operating system.
 
@@ -99,7 +99,7 @@ Authority. We encourage all contributions that meet the following criteria:
 * fit naturally into a Certificate Authority.
 * strive not to break existing functionality.
 * close or update an open [`step certificates`
-issue](https://github.com/smallstep/certificates/issues)
+issue](https://github.com/adtsign/certificates/issues)
 
 **Bug fixes are, of course, always welcome.**
 

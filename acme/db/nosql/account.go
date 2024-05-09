@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"time"
 
+	"github.com/adtsign/certificates/acme"
 	"github.com/pkg/errors"
-	"github.com/smallstep/certificates/acme"
 	nosqlDB "github.com/smallstep/nosql"
 	"go.step.sm/crypto/jose"
 )

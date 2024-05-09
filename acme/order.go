@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/smallstep/certificates/authority/provisioner"
+	"github.com/adtsign/certificates/authority/provisioner"
 	"go.step.sm/crypto/keyutil"
 	"go.step.sm/crypto/x509util"
 )

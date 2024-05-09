@@ -16,8 +16,8 @@ import (
 	"go.step.sm/crypto/keyutil"
 	"go.step.sm/crypto/x509util"
 
-	"github.com/smallstep/certificates/authority/policy"
-	"github.com/smallstep/certificates/errs"
+	"github.com/adtsign/certificates/authority/policy"
+	"github.com/adtsign/certificates/errs"
 )
 
 // DefaultCertValidity is the default validity for a certificate if none is specified.

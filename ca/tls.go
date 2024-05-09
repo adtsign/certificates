@@ -15,9 +15,9 @@ import (
 	"runtime"
 	"time"
 
+	"github.com/adtsign/certificates/api"
+	"github.com/adtsign/certificates/ca/identity"
 	"github.com/pkg/errors"
-	"github.com/smallstep/certificates/api"
-	"github.com/smallstep/certificates/ca/identity"
 )
 
 // mTLSDialContext will hold the dial context function to use in

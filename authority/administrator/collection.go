@@ -4,9 +4,9 @@ import (
 	"sort"
 	"sync"
 
+	"github.com/adtsign/certificates/authority/admin"
+	"github.com/adtsign/certificates/authority/provisioner"
 	"github.com/pkg/errors"
-	"github.com/smallstep/certificates/authority/admin"
-	"github.com/smallstep/certificates/authority/provisioner"
 	"go.step.sm/linkedca"
 )
 

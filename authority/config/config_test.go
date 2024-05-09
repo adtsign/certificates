@@ -5,10 +5,10 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/adtsign/certificates/authority/provisioner"
+	_ "github.com/adtsign/certificates/cas"
 	"github.com/pkg/errors"
 	"github.com/smallstep/assert"
-	"github.com/smallstep/certificates/authority/provisioner"
-	_ "github.com/smallstep/certificates/cas"
 	"go.step.sm/crypto/jose"
 )
 

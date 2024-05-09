@@ -15,12 +15,12 @@ import (
 	"go.step.sm/crypto/randutil"
 	"go.step.sm/crypto/sshutil"
 
-	"github.com/smallstep/certificates/authority/config"
-	"github.com/smallstep/certificates/authority/provisioner"
-	"github.com/smallstep/certificates/db"
-	"github.com/smallstep/certificates/errs"
-	"github.com/smallstep/certificates/templates"
-	"github.com/smallstep/certificates/webhook"
+	"github.com/adtsign/certificates/authority/config"
+	"github.com/adtsign/certificates/authority/provisioner"
+	"github.com/adtsign/certificates/db"
+	"github.com/adtsign/certificates/errs"
+	"github.com/adtsign/certificates/templates"
+	"github.com/adtsign/certificates/webhook"
 )
 
 const (

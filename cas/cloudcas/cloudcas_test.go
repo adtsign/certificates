@@ -1,4 +1,4 @@
-//go:generate mockgen -package cloudcas -mock_names=CertificateAuthorityClient=MockCertificateAuthorityClient -destination mock_client_test.go github.com/smallstep/certificates/cas/cloudcas CertificateAuthorityClient
+//go:generate mockgen -package cloudcas -mock_names=CertificateAuthorityClient=MockCertificateAuthorityClient -destination mock_client_test.go github.com/adtsign/certificates/cas/cloudcas CertificateAuthorityClient
 //go:generate mockgen -package cloudcas -mock_names=OperationsServer=MockOperationsServer -destination mock_operation_server_test.go cloud.google.com/go/longrunning/autogen/longrunningpb OperationsServer
 
 package cloudcas
@@ -26,11 +26,11 @@ import (
 	"cloud.google.com/go/longrunning/autogen/longrunningpb"
 	privateca "cloud.google.com/go/security/privateca/apiv1"
 	pb "cloud.google.com/go/security/privateca/apiv1/privatecapb"
+	"github.com/adtsign/certificates/cas/apiv1"
 	gomock "github.com/golang/mock/gomock"
 	"github.com/google/uuid"
 	gax "github.com/googleapis/gax-go/v2"
 	"github.com/pkg/errors"
-	"github.com/smallstep/certificates/cas/apiv1"
 	kmsapi "go.step.sm/crypto/kms/apiv1"
 	"google.golang.org/api/option"
 	"google.golang.org/grpc"

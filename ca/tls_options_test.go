@@ -12,7 +12,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/smallstep/certificates/api"
+	"github.com/adtsign/certificates/api"
 )
 
 //nolint:gosec // test tls config

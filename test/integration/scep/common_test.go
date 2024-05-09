@@ -25,8 +25,8 @@ import (
 	"go.step.sm/crypto/minica"
 	"go.step.sm/crypto/x509util"
 
-	"github.com/smallstep/certificates/ca"
-	"github.com/smallstep/certificates/cas/apiv1"
+	"github.com/adtsign/certificates/ca"
+	"github.com/adtsign/certificates/cas/apiv1"
 )
 
 func newCAClient(t *testing.T, caURL, rootFilepath string) *ca.Client {

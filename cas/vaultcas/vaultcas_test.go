@@ -13,8 +13,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/adtsign/certificates/cas/apiv1"
 	vault "github.com/hashicorp/vault/api"
-	"github.com/smallstep/certificates/cas/apiv1"
 	"go.step.sm/crypto/pemutil"
 )
 

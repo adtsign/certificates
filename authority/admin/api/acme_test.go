@@ -19,9 +19,9 @@ import (
 
 	"go.step.sm/linkedca"
 
+	"github.com/adtsign/certificates/acme"
+	"github.com/adtsign/certificates/authority/admin"
 	"github.com/smallstep/assert"
-	"github.com/smallstep/certificates/acme"
-	"github.com/smallstep/certificates/authority/admin"
 )
 
 func readProtoJSON(r io.ReadCloser, m proto.Message) error {

@@ -8,7 +8,7 @@ import (
 
 	"go.step.sm/crypto/jose"
 
-	"github.com/smallstep/certificates/authority/policy"
+	"github.com/adtsign/certificates/authority/policy"
 )
 
 // Account is a subset of the internal account type containing only those

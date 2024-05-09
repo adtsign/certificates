@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/smallstep/certificates/api/render"
-	"github.com/smallstep/certificates/errs"
+	"github.com/adtsign/certificates/api/render"
+	"github.com/adtsign/certificates/errs"
 )
 
 // CRL is an HTTP handler that returns the current CRL in DER or PEM format

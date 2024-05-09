@@ -5,8 +5,8 @@ import (
 	"crypto/x509"
 	"time"
 
-	"github.com/smallstep/certificates/authority"
-	"github.com/smallstep/certificates/authority/provisioner"
+	"github.com/adtsign/certificates/authority"
+	"github.com/adtsign/certificates/authority/provisioner"
 )
 
 // Clock that returns time in UTC rounded to seconds.

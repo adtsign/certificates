@@ -13,7 +13,7 @@ import (
 	kmsapi "go.step.sm/crypto/kms/apiv1"
 	"golang.org/x/crypto/ssh"
 
-	"github.com/smallstep/certificates/errs"
+	"github.com/adtsign/certificates/errs"
 )
 
 // Interface is the interface that all provisioner types must implement.

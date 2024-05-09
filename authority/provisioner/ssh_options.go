@@ -8,7 +8,7 @@ import (
 	"go.step.sm/cli-utils/step"
 	"go.step.sm/crypto/sshutil"
 
-	"github.com/smallstep/certificates/authority/policy"
+	"github.com/adtsign/certificates/authority/policy"
 )
 
 // SSHCertificateOptions is an interface that returns a list of options passed when

@@ -10,7 +10,7 @@ import (
 	"go.step.sm/crypto/jose"
 	"go.step.sm/crypto/x509util"
 
-	"github.com/smallstep/certificates/authority/policy"
+	"github.com/adtsign/certificates/authority/policy"
 )
 
 // CertificateOptions is an interface that returns a list of options passed when

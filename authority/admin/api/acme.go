@@ -7,9 +7,9 @@ import (
 	"go.step.sm/linkedca"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/smallstep/certificates/acme"
-	"github.com/smallstep/certificates/api/render"
-	"github.com/smallstep/certificates/authority/admin"
+	"github.com/adtsign/certificates/acme"
+	"github.com/adtsign/certificates/api/render"
+	"github.com/adtsign/certificates/authority/admin"
 )
 
 // CreateExternalAccountKeyRequest is the type for POST /admin/acme/eab requests

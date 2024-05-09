@@ -13,11 +13,11 @@ import (
 	"go.step.sm/crypto/jose"
 	"golang.org/x/crypto/ocsp"
 
-	"github.com/smallstep/certificates/acme"
-	"github.com/smallstep/certificates/api/render"
-	"github.com/smallstep/certificates/authority"
-	"github.com/smallstep/certificates/authority/provisioner"
-	"github.com/smallstep/certificates/logging"
+	"github.com/adtsign/certificates/acme"
+	"github.com/adtsign/certificates/api/render"
+	"github.com/adtsign/certificates/authority"
+	"github.com/adtsign/certificates/authority/provisioner"
+	"github.com/adtsign/certificates/logging"
 )
 
 type revokePayload struct {
@@ -169,7 +169,7 @@ func isAccountAuthorized(_ context.Context, dbCert *acme.Certificate, certToBeRe
 	// We currently only support the first case. The second might result in step going OOM when
 	// large numbers of Authorizations are involved when the current nosql interface is in use.
 	// We want to protect users from this failure scenario, so that's why it hasn't been added yet.
-	// This issue is tracked in https://github.com/smallstep/certificates/issues/767
+	// This issue is tracked in https://github.com/adtsign/certificates/issues/767
 
 	// not authorized; fail closed.
 	return wrapUnauthorizedError(certToBeRevoked, nil, fmt.Sprintf("account '%s' is not authorized", account.ID), nil)

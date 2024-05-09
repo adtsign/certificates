@@ -9,7 +9,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/smallstep/certificates/acme"
+	"github.com/adtsign/certificates/acme"
 	nosqlDB "github.com/smallstep/nosql"
 )
 

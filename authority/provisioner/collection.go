@@ -12,7 +12,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/smallstep/certificates/authority/admin"
+	"github.com/adtsign/certificates/authority/admin"
 	"go.step.sm/crypto/jose"
 )
 

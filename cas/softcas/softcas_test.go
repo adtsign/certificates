@@ -17,8 +17,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/adtsign/certificates/cas/apiv1"
 	"github.com/pkg/errors"
-	"github.com/smallstep/certificates/cas/apiv1"
 	"go.step.sm/crypto/kms"
 	kmsapi "go.step.sm/crypto/kms/apiv1"
 	"go.step.sm/crypto/pemutil"

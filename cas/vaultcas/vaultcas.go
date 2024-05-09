@@ -14,9 +14,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/smallstep/certificates/cas/apiv1"
-	"github.com/smallstep/certificates/cas/vaultcas/auth/approle"
-	"github.com/smallstep/certificates/cas/vaultcas/auth/kubernetes"
+	"github.com/adtsign/certificates/cas/apiv1"
+	"github.com/adtsign/certificates/cas/vaultcas/auth/approle"
+	"github.com/adtsign/certificates/cas/vaultcas/auth/kubernetes"
 
 	vault "github.com/hashicorp/vault/api"
 )

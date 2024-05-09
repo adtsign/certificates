@@ -14,7 +14,7 @@ import (
 
 	"go.step.sm/crypto/x509util"
 
-	"github.com/smallstep/certificates/authority/provisioner"
+	"github.com/adtsign/certificates/authority/provisioner"
 )
 
 // Authority is the layer that handles all SCEP interactions.

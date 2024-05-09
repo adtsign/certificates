@@ -10,8 +10,8 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/smallstep/certificates/internal/userid"
-	"github.com/smallstep/certificates/middleware/requestid"
+	"github.com/adtsign/certificates/internal/userid"
+	"github.com/adtsign/certificates/middleware/requestid"
 )
 
 // LoggerHandler creates a logger handler

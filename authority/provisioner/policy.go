@@ -1,6 +1,6 @@
 package provisioner
 
-import "github.com/smallstep/certificates/authority/policy"
+import "github.com/adtsign/certificates/authority/policy"
 
 type policyEngine struct {
 	x509Policy    policy.X509Policy

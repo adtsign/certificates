@@ -18,7 +18,7 @@ import (
 	"go.step.sm/linkedca"
 	"golang.org/x/crypto/ssh"
 
-	"github.com/smallstep/certificates/errs"
+	"github.com/adtsign/certificates/errs"
 )
 
 const (

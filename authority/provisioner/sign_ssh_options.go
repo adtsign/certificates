@@ -9,9 +9,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/adtsign/certificates/authority/policy"
+	"github.com/adtsign/certificates/errs"
 	"github.com/pkg/errors"
-	"github.com/smallstep/certificates/authority/policy"
-	"github.com/smallstep/certificates/errs"
 	"go.step.sm/crypto/keyutil"
 	"golang.org/x/crypto/ssh"
 )

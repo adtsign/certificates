@@ -11,7 +11,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/smallstep/certificates/api"
+	"github.com/adtsign/certificates/api"
 	"go.step.sm/crypto/pemutil"
 )
 

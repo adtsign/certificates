@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"strings"
 
+	"github.com/adtsign/certificates/authority/provisioner"
 	"github.com/pkg/errors"
-	"github.com/smallstep/certificates/authority/provisioner"
 	"go.step.sm/cli-utils/step"
 	"go.step.sm/linkedca"
 	"google.golang.org/protobuf/types/known/structpb"

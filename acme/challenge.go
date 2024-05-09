@@ -36,7 +36,7 @@ import (
 	"go.step.sm/crypto/pemutil"
 	"go.step.sm/crypto/x509util"
 
-	"github.com/smallstep/certificates/authority/provisioner"
+	"github.com/adtsign/certificates/authority/provisioner"
 )
 
 type ChallengeType string

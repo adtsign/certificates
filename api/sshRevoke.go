@@ -5,12 +5,12 @@ import (
 
 	"golang.org/x/crypto/ocsp"
 
-	"github.com/smallstep/certificates/api/read"
-	"github.com/smallstep/certificates/api/render"
-	"github.com/smallstep/certificates/authority"
-	"github.com/smallstep/certificates/authority/provisioner"
-	"github.com/smallstep/certificates/errs"
-	"github.com/smallstep/certificates/logging"
+	"github.com/adtsign/certificates/api/read"
+	"github.com/adtsign/certificates/api/render"
+	"github.com/adtsign/certificates/authority"
+	"github.com/adtsign/certificates/authority/provisioner"
+	"github.com/adtsign/certificates/errs"
+	"github.com/adtsign/certificates/logging"
 )
 
 // SSHRevokeResponse is the response object that returns the health of the server.

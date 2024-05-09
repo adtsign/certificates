@@ -15,11 +15,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
+	"github.com/adtsign/certificates/api/render"
+	"github.com/adtsign/certificates/authority/admin"
+	"github.com/adtsign/certificates/authority/provisioner"
+	"github.com/adtsign/certificates/db"
 	"github.com/smallstep/assert"
-	"github.com/smallstep/certificates/api/render"
-	"github.com/smallstep/certificates/authority/admin"
-	"github.com/smallstep/certificates/authority/provisioner"
-	"github.com/smallstep/certificates/db"
 )
 
 func TestGetEncryptedKey(t *testing.T) {

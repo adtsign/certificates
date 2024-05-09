@@ -7,12 +7,12 @@ import (
 
 	"go.step.sm/linkedca"
 
-	"github.com/smallstep/certificates/acme"
-	"github.com/smallstep/certificates/api/read"
-	"github.com/smallstep/certificates/api/render"
-	"github.com/smallstep/certificates/authority"
-	"github.com/smallstep/certificates/authority/admin"
-	"github.com/smallstep/certificates/authority/policy"
+	"github.com/adtsign/certificates/acme"
+	"github.com/adtsign/certificates/api/read"
+	"github.com/adtsign/certificates/api/render"
+	"github.com/adtsign/certificates/authority"
+	"github.com/adtsign/certificates/authority/admin"
+	"github.com/adtsign/certificates/authority/policy"
 )
 
 // PolicyAdminResponder is the interface responsible for writing ACME admin

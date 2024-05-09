@@ -14,8 +14,8 @@ import (
 	"go.step.sm/crypto/randutil"
 	"go.step.sm/linkedca"
 
+	"github.com/adtsign/certificates/api/render"
 	"github.com/smallstep/assert"
-	"github.com/smallstep/certificates/api/render"
 )
 
 func TestX5C_Getters(t *testing.T) {

@@ -10,9 +10,9 @@ import (
 	"net/http"
 	"strings"
 
+	"github.com/adtsign/certificates/acme"
+	acmeAPI "github.com/adtsign/certificates/acme/api"
 	"github.com/pkg/errors"
-	"github.com/smallstep/certificates/acme"
-	acmeAPI "github.com/smallstep/certificates/acme/api"
 	"go.step.sm/crypto/jose"
 )
 

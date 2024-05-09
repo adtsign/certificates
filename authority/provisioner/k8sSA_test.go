@@ -11,8 +11,8 @@ import (
 
 	"go.step.sm/crypto/jose"
 
+	"github.com/adtsign/certificates/api/render"
 	"github.com/smallstep/assert"
-	"github.com/smallstep/certificates/api/render"
 )
 
 func TestK8sSA_Getters(t *testing.T) {

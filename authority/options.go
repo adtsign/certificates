@@ -12,13 +12,13 @@ import (
 
 	"go.step.sm/crypto/kms"
 
-	"github.com/smallstep/certificates/authority/admin"
-	"github.com/smallstep/certificates/authority/config"
-	"github.com/smallstep/certificates/authority/provisioner"
-	"github.com/smallstep/certificates/cas"
-	casapi "github.com/smallstep/certificates/cas/apiv1"
-	"github.com/smallstep/certificates/db"
-	"github.com/smallstep/certificates/scep"
+	"github.com/adtsign/certificates/authority/admin"
+	"github.com/adtsign/certificates/authority/config"
+	"github.com/adtsign/certificates/authority/provisioner"
+	"github.com/adtsign/certificates/cas"
+	casapi "github.com/adtsign/certificates/cas/apiv1"
+	"github.com/adtsign/certificates/db"
+	"github.com/adtsign/certificates/scep"
 )
 
 // Option sets options to the Authority.

@@ -12,10 +12,10 @@ import (
 
 	privateca "cloud.google.com/go/security/privateca/apiv1"
 	pb "cloud.google.com/go/security/privateca/apiv1/privatecapb"
+	"github.com/adtsign/certificates/cas/apiv1"
 	"github.com/google/uuid"
 	gax "github.com/googleapis/gax-go/v2"
 	"github.com/pkg/errors"
-	"github.com/smallstep/certificates/cas/apiv1"
 	"go.step.sm/crypto/x509util"
 	"google.golang.org/api/option"
 	"google.golang.org/grpc/codes"

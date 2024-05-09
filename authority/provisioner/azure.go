@@ -19,8 +19,8 @@ import (
 	"go.step.sm/crypto/x509util"
 	"go.step.sm/linkedca"
 
-	"github.com/smallstep/certificates/errs"
-	"github.com/smallstep/certificates/webhook"
+	"github.com/adtsign/certificates/errs"
+	"github.com/adtsign/certificates/webhook"
 )
 
 // azureOIDCBaseURL is the base discovery url for Microsoft Azure tokens.

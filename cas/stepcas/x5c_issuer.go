@@ -8,8 +8,8 @@ import (
 	"net/url"
 	"time"
 
+	"github.com/adtsign/certificates/cas/apiv1"
 	"github.com/pkg/errors"
-	"github.com/smallstep/certificates/cas/apiv1"
 	"go.step.sm/crypto/jose"
 	"go.step.sm/crypto/pemutil"
 	"go.step.sm/crypto/randutil"

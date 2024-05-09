@@ -13,8 +13,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/adtsign/certificates/api"
 	"github.com/pkg/errors"
-	"github.com/smallstep/certificates/api"
 	"go.step.sm/cli-utils/step"
 	"go.step.sm/crypto/pemutil"
 )

@@ -13,11 +13,11 @@ import (
 	kms "go.step.sm/crypto/kms/apiv1"
 	"go.step.sm/linkedca"
 
-	"github.com/smallstep/certificates/authority/policy"
-	"github.com/smallstep/certificates/authority/provisioner"
-	cas "github.com/smallstep/certificates/cas/apiv1"
-	"github.com/smallstep/certificates/db"
-	"github.com/smallstep/certificates/templates"
+	"github.com/adtsign/certificates/authority/policy"
+	"github.com/adtsign/certificates/authority/provisioner"
+	cas "github.com/adtsign/certificates/cas/apiv1"
+	"github.com/adtsign/certificates/db"
+	"github.com/adtsign/certificates/templates"
 )
 
 const (

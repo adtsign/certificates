@@ -23,12 +23,12 @@ import (
 	"go.step.sm/crypto/randutil"
 	"go.step.sm/crypto/x509util"
 
-	"github.com/smallstep/certificates/api"
-	"github.com/smallstep/certificates/authority/config"
-	"github.com/smallstep/certificates/authority/provisioner"
-	"github.com/smallstep/certificates/ca"
-	"github.com/smallstep/certificates/ca/client"
-	"github.com/smallstep/certificates/errs"
+	"github.com/adtsign/certificates/api"
+	"github.com/adtsign/certificates/authority/config"
+	"github.com/adtsign/certificates/authority/provisioner"
+	"github.com/adtsign/certificates/ca"
+	"github.com/adtsign/certificates/ca/client"
+	"github.com/adtsign/certificates/errs"
 )
 
 // reservePort "reserves" a TCP port by opening a listener on a random
@@ -149,7 +149,7 @@ func Test_reflectRequestID(t *testing.T) {
 		assert.Equal(t, "The requested resource could not be found. Please see the certificate authority logs for more info.", firstErr.Err.Error())
 		assert.NotEmpty(t, firstErr.RequestID)
 
-		// TODO: include the below error in the JSON? It's currently only output to the CA logs. Also see https://github.com/smallstep/certificates/pull/759
+		// TODO: include the below error in the JSON? It's currently only output to the CA logs. Also see https://github.com/adtsign/certificates/pull/759
 		//assert.Equal(t, "/root/invalid was not found: certificate with fingerprint invalid was not found", apiErr.Msg)
 	}
 	assert.Nil(t, rootResponse)

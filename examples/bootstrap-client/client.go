@@ -7,7 +7,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/smallstep/certificates/ca"
+	"github.com/adtsign/certificates/ca"
 )
 
 func main() {

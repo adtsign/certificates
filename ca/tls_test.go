@@ -22,8 +22,8 @@ import (
 	"go.step.sm/crypto/jose"
 	"go.step.sm/crypto/randutil"
 
-	"github.com/smallstep/certificates/api"
-	"github.com/smallstep/certificates/authority"
+	"github.com/adtsign/certificates/api"
+	"github.com/adtsign/certificates/authority"
 )
 
 func generateOTT(t *testing.T, subject string) string {

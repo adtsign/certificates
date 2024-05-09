@@ -9,7 +9,7 @@ import (
 	"google.golang.org/protobuf/encoding/protojson"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/smallstep/certificates/api/log"
+	"github.com/adtsign/certificates/api/log"
 )
 
 // JSON is shorthand for JSONStatus(w, v, http.StatusOK).

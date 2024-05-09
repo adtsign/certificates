@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"net/http"
 
+	"github.com/adtsign/certificates/api/render"
 	"github.com/pkg/errors"
-	"github.com/smallstep/certificates/api/render"
 )
 
 // ProblemType is the type of the ACME problem.

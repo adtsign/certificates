@@ -7,8 +7,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/smallstep/certificates/api/log"
-	"github.com/smallstep/certificates/api/render"
+	"github.com/adtsign/certificates/api/log"
+	"github.com/adtsign/certificates/api/render"
 )
 
 // Option modifies the Error type.

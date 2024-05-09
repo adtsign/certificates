@@ -25,9 +25,9 @@ import (
 	"go.step.sm/crypto/x509util"
 	"go.step.sm/linkedca"
 
-	"github.com/smallstep/certificates/authority/admin"
-	"github.com/smallstep/certificates/authority/provisioner"
-	"github.com/smallstep/certificates/db"
+	"github.com/adtsign/certificates/authority/admin"
+	"github.com/adtsign/certificates/authority/provisioner"
+	"github.com/adtsign/certificates/db"
 )
 
 const uuidPattern = "^[a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12}$"

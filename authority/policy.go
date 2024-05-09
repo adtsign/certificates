@@ -7,9 +7,9 @@ import (
 
 	"go.step.sm/linkedca"
 
-	"github.com/smallstep/certificates/authority/admin"
-	authPolicy "github.com/smallstep/certificates/authority/policy"
-	policy "github.com/smallstep/certificates/policy"
+	"github.com/adtsign/certificates/authority/admin"
+	authPolicy "github.com/adtsign/certificates/authority/policy"
+	policy "github.com/adtsign/certificates/policy"
 )
 
 type policyErrorType int

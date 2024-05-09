@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/smallstep/certificates/api/render"
-	"github.com/smallstep/certificates/authority"
-	"github.com/smallstep/certificates/errs"
+	"github.com/adtsign/certificates/api/render"
+	"github.com/adtsign/certificates/authority"
+	"github.com/adtsign/certificates/errs"
 )
 
 const (

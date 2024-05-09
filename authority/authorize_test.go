@@ -24,11 +24,11 @@ import (
 	"go.step.sm/crypto/randutil"
 	"go.step.sm/crypto/x509util"
 
+	"github.com/adtsign/certificates/api/render"
+	"github.com/adtsign/certificates/authority/provisioner"
+	"github.com/adtsign/certificates/db"
+	"github.com/adtsign/certificates/errs"
 	"github.com/smallstep/assert"
-	"github.com/smallstep/certificates/api/render"
-	"github.com/smallstep/certificates/authority/provisioner"
-	"github.com/smallstep/certificates/db"
-	"github.com/smallstep/certificates/errs"
 )
 
 var testAudiences = provisioner.Audiences{

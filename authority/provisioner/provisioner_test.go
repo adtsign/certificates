@@ -8,8 +8,8 @@ import (
 
 	"golang.org/x/crypto/ssh"
 
+	"github.com/adtsign/certificates/api/render"
 	"github.com/smallstep/assert"
-	"github.com/smallstep/certificates/api/render"
 )
 
 func TestType_String(t *testing.T) {

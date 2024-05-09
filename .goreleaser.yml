@@ -66,7 +66,7 @@ nfpms:
     package_name: step-ca
     file_name_template: "{{ .PackageName }}_{{ .Version }}_{{ .Arch }}{{ if .Arm }}v{{ .Arm }}{{ end }}{{ if .Mips }}_{{ .Mips }}{{ end }}"
     vendor: Smallstep Labs
-    homepage: https://github.com/smallstep/certificates
+    homepage: https://github.com/adtsign/certificates
     maintainer: Smallstep <techadmin@smallstep.com>
     description: >
       step-ca is an online certificate authority for secure, automated certificate management.
@@ -154,7 +154,7 @@ release:
     For more builds across platforms and architectures, see the `Assets` section below.
     And for packaged versions (Docker, k8s, Homebrew), see our [installation docs](https://smallstep.com/docs/step-ca/installation).
 
-    Don't see the artifact you need? Open an issue [here](https://github.com/smallstep/certificates/issues/new/choose).
+    Don't see the artifact you need? Open an issue [here](https://github.com/adtsign/certificates/issues/new/choose).
 
     ## Signatures and Checksums
 
@@ -234,13 +234,13 @@ winget:
     # Publisher support URL.
     #
     # Templates: allowed
-    publisher_support_url: "https://github.com/smallstep/certificates/discussions"
+    publisher_support_url: "https://github.com/adtsign/certificates/discussions"
 
     # URL which is determined by the given Token (github, gitlab or gitea).
     #
     # Default depends on the client.
     # Templates: allowed
-    url_template: "https://github.com/smallstep/certificates/releases/download/{{ .Tag }}/{{ .ArtifactName }}"
+    url_template: "https://github.com/adtsign/certificates/releases/download/{{ .Tag }}/{{ .ArtifactName }}"
 
     # Git author used to commit to the repository.
     commit_author:
@@ -253,7 +253,7 @@ winget:
     commit_msg_template: "{{ .PackageIdentifier }}: {{ .Tag }}"
 
     # Your app's homepage.
-    homepage: "https://github.com/smallstep/certificates"
+    homepage: "https://github.com/adtsign/certificates"
 
     # Your app's long description.
     #
@@ -263,12 +263,12 @@ winget:
     # License URL.
     #
     # Templates: allowed
-    license_url: "https://github.com/smallstep/certificates/blob/master/LICENSE"
+    license_url: "https://github.com/adtsign/certificates/blob/master/LICENSE"
 
     # Release notes URL.
     #
     # Templates: allowed
-    release_notes_url: "https://github.com/smallstep/certificates/releases/tag/{{ .Tag }}"
+    release_notes_url: "https://github.com/adtsign/certificates/releases/tag/{{ .Tag }}"
 
     # Create the PR - for testing
     skip_upload: auto
@@ -322,7 +322,7 @@ scoops:
     # Default for github is "https://github.com/<repo_owner>/<repo_name>/releases/download/{{ .Tag }}/{{ .ArtifactName }}"
     # Default for gitlab is "https://gitlab.com/<repo_owner>/<repo_name>/uploads/{{ .ArtifactUploadHash }}/{{ .ArtifactName }}"
     # Default for gitea is "https://gitea.com/<repo_owner>/<repo_name>/releases/download/{{ .Tag }}/{{ .ArtifactName }}"
-    url_template: "http://github.com/smallstep/certificates/releases/download/{{ .Tag }}/{{ .ArtifactName }}"
+    url_template: "http://github.com/adtsign/certificates/releases/download/{{ .Tag }}/{{ .ArtifactName }}"
     # Repository to push the app manifest to.
     repository:
       owner: smallstep

@@ -8,11 +8,11 @@ import (
 
 	"go.step.sm/linkedca"
 
-	"github.com/smallstep/certificates/acme"
-	"github.com/smallstep/certificates/api/render"
-	"github.com/smallstep/certificates/authority/admin"
-	"github.com/smallstep/certificates/authority/admin/db/nosql"
-	"github.com/smallstep/certificates/authority/provisioner"
+	"github.com/adtsign/certificates/acme"
+	"github.com/adtsign/certificates/api/render"
+	"github.com/adtsign/certificates/authority/admin"
+	"github.com/adtsign/certificates/authority/admin/db/nosql"
+	"github.com/adtsign/certificates/authority/provisioner"
 )
 
 // requireAPIEnabled is a middleware that ensures the Administration API

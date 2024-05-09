@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
+	"github.com/adtsign/certificates/db"
 	"github.com/pkg/errors"
 	"github.com/smallstep/assert"
-	"github.com/smallstep/certificates/db"
 	"github.com/smallstep/nosql"
 )
 

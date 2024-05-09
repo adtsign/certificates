@@ -3,8 +3,8 @@ package authority
 import (
 	"context"
 
-	"github.com/smallstep/certificates/authority/admin"
-	"github.com/smallstep/certificates/authority/provisioner"
+	"github.com/adtsign/certificates/authority/admin"
+	"github.com/adtsign/certificates/authority/provisioner"
 	"go.step.sm/linkedca"
 )
 

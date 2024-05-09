@@ -18,7 +18,7 @@ import (
 	"go.step.sm/crypto/x509util"
 	"go.step.sm/linkedca"
 
-	"github.com/smallstep/certificates/errs"
+	"github.com/adtsign/certificates/errs"
 )
 
 // openIDConfiguration contains the necessary properties in the

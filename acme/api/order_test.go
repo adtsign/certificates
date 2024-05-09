@@ -20,10 +20,10 @@ import (
 
 	"go.step.sm/crypto/pemutil"
 
+	"github.com/adtsign/certificates/acme"
+	"github.com/adtsign/certificates/authority/policy"
+	"github.com/adtsign/certificates/authority/provisioner"
 	"github.com/smallstep/assert"
-	"github.com/smallstep/certificates/acme"
-	"github.com/smallstep/certificates/authority/policy"
-	"github.com/smallstep/certificates/authority/provisioner"
 )
 
 func TestNewOrderRequest_Validate(t *testing.T) {

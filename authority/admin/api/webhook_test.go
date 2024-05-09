@@ -11,9 +11,9 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/adtsign/certificates/authority"
+	"github.com/adtsign/certificates/authority/admin"
 	"github.com/go-chi/chi/v5"
-	"github.com/smallstep/certificates/authority"
-	"github.com/smallstep/certificates/authority/admin"
 	"github.com/stretchr/testify/assert"
 	"go.step.sm/linkedca"
 	"google.golang.org/protobuf/encoding/protojson"

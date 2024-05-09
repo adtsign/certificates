@@ -12,7 +12,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/smallstep/certificates/logging"
+	"github.com/adtsign/certificates/logging"
 )
 
 func TestJSON(t *testing.T) {

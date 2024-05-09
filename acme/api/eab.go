@@ -7,7 +7,7 @@ import (
 
 	"go.step.sm/crypto/jose"
 
-	"github.com/smallstep/certificates/acme"
+	"github.com/adtsign/certificates/acme"
 )
 
 // ExternalAccountBinding represents the ACME externalAccountBinding JWS

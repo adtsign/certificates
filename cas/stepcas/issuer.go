@@ -6,10 +6,10 @@ import (
 	"strings"
 	"time"
 
+	"github.com/adtsign/certificates/ca"
+	"github.com/adtsign/certificates/cas/apiv1"
 	"github.com/google/uuid"
 	"github.com/pkg/errors"
-	"github.com/smallstep/certificates/ca"
-	"github.com/smallstep/certificates/cas/apiv1"
 )
 
 // raAuthorityNS is a custom namespace used to generate endpoint ids based on

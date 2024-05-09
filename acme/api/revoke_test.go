@@ -30,10 +30,10 @@ import (
 	"go.step.sm/crypto/keyutil"
 	"go.step.sm/crypto/x509util"
 
+	"github.com/adtsign/certificates/acme"
+	"github.com/adtsign/certificates/authority"
+	"github.com/adtsign/certificates/authority/provisioner"
 	"github.com/smallstep/assert"
-	"github.com/smallstep/certificates/acme"
-	"github.com/smallstep/certificates/authority"
-	"github.com/smallstep/certificates/authority/provisioner"
 )
 
 // v is a utility function to return the pointer to an integer

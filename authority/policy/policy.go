@@ -5,7 +5,7 @@ import (
 
 	"go.step.sm/linkedca"
 
-	"github.com/smallstep/certificates/policy"
+	"github.com/adtsign/certificates/policy"
 )
 
 // X509Policy is an alias for policy.X509NamePolicyEngine

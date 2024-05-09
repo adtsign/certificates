@@ -18,11 +18,11 @@ import (
 
 	"go.step.sm/linkedca"
 
+	"github.com/adtsign/certificates/acme"
+	"github.com/adtsign/certificates/authority/admin"
+	"github.com/adtsign/certificates/authority/admin/db/nosql"
+	"github.com/adtsign/certificates/authority/provisioner"
 	"github.com/smallstep/assert"
-	"github.com/smallstep/certificates/acme"
-	"github.com/smallstep/certificates/authority/admin"
-	"github.com/smallstep/certificates/authority/admin/db/nosql"
-	"github.com/smallstep/certificates/authority/provisioner"
 )
 
 func TestHandler_requireAPIEnabled(t *testing.T) {

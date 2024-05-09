@@ -11,11 +11,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/adtsign/certificates/acme"
+	acmeAPI "github.com/adtsign/certificates/acme/api"
+	"github.com/adtsign/certificates/api/render"
 	"github.com/pkg/errors"
 	"github.com/smallstep/assert"
-	"github.com/smallstep/certificates/acme"
-	acmeAPI "github.com/smallstep/certificates/acme/api"
-	"github.com/smallstep/certificates/api/render"
 	"go.step.sm/crypto/jose"
 	"go.step.sm/crypto/pemutil"
 )

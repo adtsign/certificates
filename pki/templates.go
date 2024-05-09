@@ -4,8 +4,8 @@ import (
 	"os"
 	"path/filepath"
 
+	"github.com/adtsign/certificates/templates"
 	"github.com/pkg/errors"
-	"github.com/smallstep/certificates/templates"
 	"go.step.sm/cli-utils/errs"
 	"go.step.sm/cli-utils/fileutil"
 	"go.step.sm/cli-utils/step"

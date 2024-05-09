@@ -12,7 +12,7 @@ import (
 
 	"go.step.sm/crypto/jose"
 
-	"github.com/smallstep/certificates/errs"
+	"github.com/adtsign/certificates/errs"
 )
 
 // sshPOPPayload extends jwt.Claims with step attributes.

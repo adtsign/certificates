@@ -16,8 +16,8 @@ import (
 	//nolint:gosec // profile server, if enabled runs on a different port
 	_ "net/http/pprof"
 
-	"github.com/smallstep/certificates/authority"
-	"github.com/smallstep/certificates/commands"
+	"github.com/adtsign/certificates/authority"
+	"github.com/adtsign/certificates/commands"
 	"github.com/urfave/cli"
 	"go.step.sm/cli-utils/command"
 	"go.step.sm/cli-utils/command/version"
@@ -37,10 +37,10 @@ import (
 	_ "go.step.sm/crypto/kms/yubikey"
 
 	// Enabled cas interfaces.
-	_ "github.com/smallstep/certificates/cas/cloudcas"
-	_ "github.com/smallstep/certificates/cas/softcas"
-	_ "github.com/smallstep/certificates/cas/stepcas"
-	_ "github.com/smallstep/certificates/cas/vaultcas"
+	_ "github.com/adtsign/certificates/cas/cloudcas"
+	_ "github.com/adtsign/certificates/cas/softcas"
+	_ "github.com/adtsign/certificates/cas/stepcas"
+	_ "github.com/adtsign/certificates/cas/vaultcas"
 )
 
 // commit and buildTime are filled in during build by the Makefile
@@ -96,7 +96,7 @@ This documentation is available online at https://smallstep.com/docs/certificate
 	`
 The **step-ca** utility is not instrumented for usage statistics. It does not phone home.
 But your feedback is extremely valuable. Any information you can provide regarding how you’re using **step-ca** helps.
-Please send us a sentence or two, good or bad: **feedback@smallstep.com** or https://github.com/smallstep/certificates/discussions.
+Please send us a sentence or two, good or bad: **feedback@smallstep.com** or https://github.com/adtsign/certificates/discussions.
 {{end}}
 `
 

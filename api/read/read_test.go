@@ -17,7 +17,7 @@ import (
 
 	"go.step.sm/linkedca"
 
-	"github.com/smallstep/certificates/errs"
+	"github.com/adtsign/certificates/errs"
 )
 
 func TestJSON(t *testing.T) {

@@ -14,11 +14,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/adtsign/certificates/authority"
+	"github.com/adtsign/certificates/authority/provisioner"
 	"github.com/google/go-cmp/cmp"
 	"github.com/pkg/errors"
 	"github.com/smallstep/assert"
-	"github.com/smallstep/certificates/authority"
-	"github.com/smallstep/certificates/authority/provisioner"
 	"go.step.sm/crypto/keyutil"
 	"go.step.sm/crypto/x509util"
 )

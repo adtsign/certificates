@@ -7,9 +7,9 @@ import (
 	"os"
 	"unicode"
 
+	"github.com/adtsign/certificates/authority"
+	"github.com/adtsign/certificates/authority/config"
 	"github.com/pkg/errors"
-	"github.com/smallstep/certificates/authority"
-	"github.com/smallstep/certificates/authority/config"
 	"github.com/urfave/cli"
 	"google.golang.org/protobuf/encoding/protojson"
 

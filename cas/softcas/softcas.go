@@ -14,7 +14,7 @@ import (
 	kmsapi "go.step.sm/crypto/kms/apiv1"
 	"go.step.sm/crypto/x509util"
 
-	"github.com/smallstep/certificates/cas/apiv1"
+	"github.com/adtsign/certificates/cas/apiv1"
 )
 
 func init() {

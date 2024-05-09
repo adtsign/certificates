@@ -16,11 +16,11 @@ import (
 	"github.com/smallstep/pkcs7"
 	smallscep "github.com/smallstep/scep"
 
-	"github.com/smallstep/certificates/api"
-	"github.com/smallstep/certificates/api/log"
-	"github.com/smallstep/certificates/authority"
-	"github.com/smallstep/certificates/authority/provisioner"
-	"github.com/smallstep/certificates/scep"
+	"github.com/adtsign/certificates/api"
+	"github.com/adtsign/certificates/api/log"
+	"github.com/adtsign/certificates/authority"
+	"github.com/adtsign/certificates/authority/provisioner"
+	"github.com/adtsign/certificates/scep"
 )
 
 const (

@@ -16,8 +16,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.step.sm/crypto/jose"
 
+	"github.com/adtsign/certificates/api/render"
 	"github.com/smallstep/assert"
-	"github.com/smallstep/certificates/api/render"
 )
 
 func Test_openIDConfiguration_Validate(t *testing.T) {

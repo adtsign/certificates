@@ -14,8 +14,8 @@ import (
 	"go.step.sm/linkedca"
 	"golang.org/x/crypto/ssh"
 
-	"github.com/smallstep/certificates/authority/policy"
-	"github.com/smallstep/certificates/webhook"
+	"github.com/adtsign/certificates/authority/policy"
+	"github.com/adtsign/certificates/webhook"
 )
 
 var trueValue = true
