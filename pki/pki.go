@@ -571,7 +571,7 @@ func (p *PKI) WriteRootCertificate(rootCrt *x509.Certificate, rootKey interface{
 
 // GenerateIntermediateCertificate generates an intermediate certificate with
 // the given name and using the default key type.
-func (p *PKI) GenerateIntermediateCertificate(name, org, resource string, parent *apiv1.CreateCertificateAuthorityResponse, pass []byte) error {
+func (p *PKI) GenerateIntermediateCertificate(name, org, country, resource, authKeyId, subKeyId, crlUrl string, parent *apiv1.CreateCertificateAuthorityResponse, pass []byte) error {
 	if uri := p.options.intermediateKeyURI; uri != "" {
 		p.IntermediateKey = uri
 	}
@@ -582,18 +582,23 @@ func (p *PKI) GenerateIntermediateCertificate(name, org, resource string, parent
 		Lifetime: 10 * 365 * 24 * time.Hour,
 		CreateKey: &apiv1.CreateKeyRequest{
 			Name:               p.IntermediateKey,
-			SignatureAlgorithm: kmsapi.UnspecifiedSignAlgorithm,
+			SignatureAlgorithm: kmsapi.SHA256WithRSA,
 		},
 		Template: &x509.Certificate{
 			Subject: pkix.Name{
-				CommonName:   name + " Intermediate CA",
+				CommonName:   name,
 				Organization: []string{org},
+				Country:      []string{country},
 			},
-			KeyUsage:              x509.KeyUsageCertSign | x509.KeyUsageCRLSign,
-			BasicConstraintsValid: true,
-			IsCA:                  true,
-			MaxPathLen:            0,
-			MaxPathLenZero:        true,
+			KeyUsage:                x509.KeyUsageCertSign | x509.KeyUsageCRLSign | x509.KeyUsageDigitalSignature,
+			BasicConstraintsValid:   true,
+			IsCA:                    true,
+			MaxPathLen:              0,
+			MaxPathLenZero:          true,
+			SubjectKeyId:            []byte(subKeyId),
+			CRLDistributionPoints:   []string{crlUrl},
+			AuthorityKeyId:          []byte(authKeyId),
+			RawSubjectPublicKeyInfo: parent.Certificate.RawSubjectPublicKeyInfo,
 		},
 		Parent: parent,
 	})
